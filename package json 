@@ -1,0 +1,6 @@
+Copy code`# Create a new file in the current directory named "package.json"
+json_file = open("package.json","w")
+json_file.write("{")
+json_file.write("  " + "name": "My Tool",")
+json_file.write("}")
+json_file.close()`
